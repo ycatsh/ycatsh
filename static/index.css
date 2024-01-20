@@ -92,8 +92,10 @@ body {
 }
 
 .container p, ul {
+	clear: both;
 	line-height: 1.5;
 	font-size: 20px;
+	text-align: justify;
 }
 
 .container .img{
@@ -126,6 +128,19 @@ body {
 
 .container .cat-imgs.active{
 	display: flex;
+}
+
+.left {
+	float: left;
+}
+
+.self-tag {
+	color: #487cb5;
+	padding-top: 27px;
+	font-size: 18px;
+	word-spacing: 10px;
+	font-family: monospace;
+	float: right;
 }
 
 #nobg{
