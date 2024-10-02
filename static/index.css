@@ -374,7 +374,7 @@ hr{
 	margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
 	.navbar .info, .navbar .link {
 		display: none;
 	}
@@ -408,6 +408,10 @@ hr{
 		color: white;
 		text-decoration: none;
 		padding: 10px;
+	}
+	
+	#contact-form input, #contact-form textarea, #contact-form button {
+		width: 100%;
 	}
 }
 
