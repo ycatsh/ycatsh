@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../static/index.css">
+	<link rel="icon" type="image/x-icon" href="../../static/imgs/favicon.png">
+	<script src="../../static/scripts/navbar.js"></script>
+	<title>Managing emails | Yash's Soapbox</title>
+</head>
+<body>
+	<div class="navbar">
+		<span class="name"><a href="../">Ycatsh</a></span>
+		<button class="hamburger">&#9776;</button>
+		<span class="info"><a href="../../">About</a></span>
+		<span class="info"><a href="../../projects/">Projects</a></span>
+		<span class="link"><a href="../../soapbox/">Yash's Soapbox</a></span>
+		<span class="link"><a href="../../contact/">Contact</a></span>
+	</div>
+	<div class="nav-menu">
+		<span class="info"><a href="../../">About</a></span>
+		<span class="info"><a href="../../projects/">Projects</a></span>
+		<span class="link"><a href="../../soapbox/">Yash's Soapbox</a></span>
+		<span class="link"><a href="../../contact/">Contact</a></span>
+		<span class="link"><a href="../../archive/">Archive</a></span>
+	</div>
+	<br>
+	<div class="container">
+		<div class="post-header">
+			<div class="left">
+				<h1>Managing emails</h1>
+				<span class="post-date">Posted on 22 Sep, 2024</span>
+			</div>
+			<span class="self-tag">#configuration #personal</span>
+		</div>
+		<br><br>
+		<p class="post-content">
+			<h3>Why not Gmail?</h3><p>To start, objectively speaking, I have a pretty neutral stance on using Google and its services. Personally, I dislike relying on Google. This isn't even completely about privacy which is one of the main reasons. Whether it was being forced into adding phone numbers for 2FA, not being able to do anything about setting up specific services that I wanted, or having to deal with user interface that I found terrible every day because I had no other option. There should be absolutely no reason for one email service to be so dominant that its unorthodox to hear anyone having something else after the <code>@</code>. In short, besides the privacy concerns Google was just straight up annoying to deal with for me. I wanted control of my own things and accounts and that's it.</p></p><p>Privacy is the biggest concern here. Google is notorious for selling data to advertisers and logging everything to make your advertising profile better and more tailored to you. Thats how they make money and this is common knowledge. Its totally subjective but I for one want to be in control of my communication and accounts associated with my email. I don't want tailored ads or anything. There are pros and cons to everything though, I've used a considerable amount of services, and I found myself being unhappy with at least one thing always.</p>
+<p>For now I use <a href="https://proton.me/mail/security" target="<em>blank">ProtonMail</a> and <a href="https://simplelogin.io/" target="</em>blank">SimpleLogin</a> with Cloudflare as my domain regristrar to manage my emails and custom domains as addresses. It's a simple system but rather complicated in a way. I'm gonna explain it via the two domains that I use, lets call them <code>mydomain.com</code> and <code>sub.mydomain.com</code> for this post. As you can tell, <code>sub.mydomain.com</code> is a subdomain of <code>mydomain.com</code>. 
+<hr/>
+<h3>The root of the system</h3><p>My ProtonMail address is my main inbox where are the emails go to. It has end-to-end <a href="https://en.wikipedia.org/wiki/Pretty%5FGood%5FPrivacy" target="_blank">PGP</a> encryption, at least while communicating with other ProtonMail accounts. <strong>Aliases</strong> are made that point to the main <code>@protonmail.com</code> adresss.</p><hr/>
+<h3>Aliases that point to my inbox</h3><p>Email alias are simply addresses that forward all incomming emails to the address they're an alias of.</p></p><p>		<h4>Aliases linked to the subdomain</h4><p>SimpleLogin takes care of <code>sub.mydomain.com</code> and has many aliases created for it. These aliases correspond to their own service so my main address stays hidden, for example:</p>		<ul><li><code>amazon@sub.mydomain.com</code> is used exclusively for my amazon account.</li></ul><p>		<ul><li><code>reddit@sub.mydomain.com</code> is used exclusively for my reddit account.</li></ul></p></p><p>Each of these aliases point to my main inbox. </p>
+<p>		<h4>Aliases linked to the main domain</h4><p>ProtonMail takes care of <code>mydomain.com</code> and has a few aliases created for it. These aliases are for my personal use for a nice custom address while communicating professionally or privately, for exmaple:</p>		<ul><li><code>myinitials@mydomain.com</code> for private communication.</li></ul><p>		<ul><li><code>contact@mydomain.com</code> for public communication.</li></ul></p></p><p>Like the SimpleLogin aliases, these also funnel directly into my main inbox, but its easier to send emails from custom addresses from ProtonMail because I dont need to rely on <a href="https://simplelogin.io/docs/getting-started/reverse-alias/" target="_blank">reverse aliases</a> to send emails. 
+<hr/>
+<h3>Why?</h3><p>This system has many benefits. I can control spam because each service has its own alias, simply speaking, its own email. So, if I ever recieve too many emails from a service I can just disable/delete the corresponding alias and go about my day. It also gives me peace of mind that my main email is private and hidden from these services that harvest tons of customer data for promotions, etc.</p>
+		</p><br>
+		<p class="read-more"><a href="../">&raquo; go back</a></p>
+	</div>
+</div>
+</body>
+</html>

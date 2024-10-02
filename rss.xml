@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Ycatsh's Webpage</title>
+    <link>https://ycatsh.net/</link>
+    <description>Ycatsh's Soapbox</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2024 14:20:02 +0000</lastBuildDate>
+    <item>
+        <title>Managing emails</title>
+        <link>https://ycatsh.net/soapbox/articles/managing-emails</link>
+        <description>The best way to manage email accounts for functionality and maybe privacy</description>
+        <pubDate>Sun, 22 Sep 2024 12:00:00 +0000</pubDate>
+        <guid>https://ycatsh.net/soapbox/articles/managing-emails</guid>
+    </item>
+    <item>
+        <title>Thinkpad</title>
+        <link>https://ycatsh.net/soapbox/articles/thinkpad</link>
+        <description>Bought a T480s </description>
+        <pubDate>Thu, 25 Jan 2024 12:00:00 +0000</pubDate>
+        <guid>https://ycatsh.net/soapbox/articles/thinkpad</guid>
+    </item>
+</channel>
+</rss>

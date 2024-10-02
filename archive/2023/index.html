@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="static/index.css">
+      <link rel="stylesheet" type="text/css" href="static/navbar.css">
+      <link rel="icon" type="image/x-icon" href="static/imgs/favicon.png">
+      <title>Archive 2023 | Ycatsh's Webpage</title>
+  </head>
+  <body>
+    <div class="archive-bar">
+      Ycatsh's Webpage 2023 Archive. Return to <a href="../../../">latest</a>
+    </div>
+    <header>
+      <nav class="navbar">
+        <a href="../2023/">intro</a>
+        <a href="../2023/#work">work</a>
+        <a href="contact/">contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section>
+        <div class="text-container">
+          <h1>
+            Hello
+            <br>
+            I'm Yash
+          </h1>
+          <h3>I love physics and game development</h3>
+        </div>
+        <div class="cat">
+          <img src="static/imgs/not-a-cat.png">
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about-me">
+          <h1 id="about-text">About me</h1>
+          <p>
+            I'm currently a student and an aspiring scholar in the field of physics, I am also passionate about programming and game development. I have worked on a bunch of <a href="../2023/#work">personal projects</a> that may have taken a bit too big of a chuck from my life. As the founder of a <a href="https://ennuifreelance.com" target="_blank">freelance service</a>, I have honed my skills as a developer and entrepreneur.
+          <br>
+          <br>
+            Apart from tech, I love playing video games and it ocasionally takes up most of my day at times. That's all really, have a great day :D
+          <br>
+          <br>
+          </p>
+        </div>
+      </section>  
+
+      <div class="cat-move">
+        <img src="static/imgs/cat.gif" alt="moving cat">
+        <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+        <script>
+          $(document).on('scroll', function(){
+            $('.cat-move img').css('margin-left', Math.max(2000 - 1*window.scrollY, 0) + 'px');
+          })
+        </script>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="cat-still">
+        <img src="static/imgs/cat.gif" alt="cat in a cart">
+      </div>
+      <br>
+      <br>
+      <br>
+      <section id="work">
+        <div class="project-container">
+          <h1 id="work-text">Work</h1>
+          <div class="project">
+            <div class="text">
+              <h2>From Another Planet</h2>
+              <p>Top view indie game with intense fast-paced gameplay</p>
+            </div>
+            <div class="link">
+              <a href="https://github.com/ycatsh/from-another-planet" target="_blank">8-bit retro shooter game</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="text">
+              <h2>Past Pilot</h2>
+              <p>Manage and navigate past papers with ease</p>
+            </div>
+            <div class="link">
+              <a href="https://github.com/ycatsh/past-pilot" target="_blank">Use NLP to find questions</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="text">
+              <h2>Physics Simulations</h2>
+              <p>Simulating physics by exploring natural phenomena through code</p>
+            </div>
+            <div class="link" id="last">
+              <a href="https://github.com/ycatsh/physics-sim" target="_blank">GitHub Repository</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="text">
+              <h2>Boring Fox</h2>
+              <p>Retro and minimalist firefox theme with convenient features</p>
+            </div>
+            <div class="link" id="last">
+              <a href="https://github.com/ycatsh/boring-fox" target="_blank">Download from GitHub</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="text">
+              <h2>Lexicon Legends</h2>
+              <p>Word based game that relies on speed</p>
+            </div>
+            <div class="link" id="last">
+              <a href="https://github.com/ycatsh/lexicon-legends" target="_blank">Become a Lexicon Legend</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="text">
+              <h2>Ennui Freelance</h2>
+              <p>My freelance service</p>
+            </div>
+            <div class="link">
+              <a href="https://www.ennuifreelance.com" target="_blank">Custom software meets art</a>
+            </div>
+          </div>
+                    
+          <div class="project">
+            <div class="text">
+              <h2>Aurora</h2>
+              <p>Discord bot with role playing and guessing games</p>
+            </div>
+            <div class="link">
+              <a href="https://github.com/ycatsh/aurora" target="_blank">Github Repository</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
