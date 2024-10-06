@@ -263,8 +263,6 @@ h5{
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
-	margin-right: -20px;
-	margin-left: -30px;
 }
 
 #tags li{
@@ -344,6 +342,13 @@ h5{
 	margin-top: -10px;
 }
 
+hr{
+	border: 1px solid #777;
+	transform: scaleY(0.5);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 code {
     background-color: #515151;
     border-radius: 3px;
@@ -367,12 +372,24 @@ li {
 	font-size: 20px;
 }
 
-hr{
-	border: 1px solid #777;
-	transform: scaleY(0.5);
-	margin-top: 30px;
-	margin-bottom: 30px;
+.rss{
+	text-align: right;
 }
+
+.rss a{
+	display: inline-flex;
+    align-items: center;
+	font-size: 16px;
+	color: #c6cbd0;
+}
+
+.rss img{
+	vertical-align: middle;
+	width: 16px; 
+	height: 16px;
+	margin-right: 2px;
+}
+
 
 @media screen and (max-width: 920px) {
 	.navbar .info, .navbar .link {
